@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- ======================== NAVBAR ======================== -->
+    <nav>
+        <ul class="navbar-list">
+            <li class="judul">
+                <p>Nauval Taj</p>
+            </li>
+            <li class="navbar-item">
+                <a href="/index.html" class="about-me sertif">Home</a>
+
+
+            </li>
+        </ul>
+    </nav>
+    <!-- ======================== END NAVBAR ======================== -->
+    <!-- ======================== Sertifikat ======================== -->
+    <article>
+        <div class="sertifikat">
+            <h1>My Certificate</h1>
+            <div class="collection-sertifikat-container">
+
+
+                <!-- ==== Network ==== -->
+                <div class="collection-sertifikat-card">
+
+                    <div class="image-box-sertifikat ">
+                        
+                        <img id="myImg" src="/assets/img/dasar web-1.png" srcset=""  >
+                        
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg");
+                            var modalImg = document.getElementById("img01");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that closes the modal
+                            var span = document.getElementsByClassName("close")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <!-- The Modal -->
+                    
+
+                    <div class="tulisan-sertifikat">
+
+                        <h3>Dasar Pemrograman Web</h3>
+
+
+                    </div>
+
+
+                </div>
+                <!-- ==== End Network ==== -->
+
+                <!-- ==== UI UX ==== -->
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+
+                        <img id="myImg-3" src="/assets/img/devops-1.png" alt="uiux.jpg" srcset="">
+                        <div id="myModal-3" class="modal">
+                            <span class="close-3">&times;</span>
+                            <img class="modal-content" id="img01-3">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal-3");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg-3");
+                            var modalImg = document.getElementById("img01-3");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close-3s the modal
+                            var span = document.getElementsByClassName("close-3")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Dasar-Dasar DevOps</h3>
+
+                    </div>
+
+                </div>
+                <!-- ==== End UI UX ==== -->
+
+                <!-- ==== Web Developer ==== -->
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg-2" src="/assets/img/front end-1.png" alt="web-dev.jpg" srcset="">
+                        
+                        <div id="myModal-2" class="modal">
+                            <span class="close-2">&times;</span>
+                            <img class="modal-content" id="img01-2">
+                            <div id="caption"></div>
+                          </div>
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal-2");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg-2");
+                            var modalImg = document.getElementById("img01-2");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close-2s the modal
+                            var span = document.getElementsByClassName("close-2")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Membuat Front-End Web untuk Pemula</h3>
+
+                    </div>
+
+                </div>
+                <!-- ==== End Web Developer ==== -->
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg-4" src="/assets/img/dasar javascript-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal4" class="modal">
+                            <span class="close4">&times;</span>
+                            <img class="modal-content" id="img014">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal4");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg-4");
+                            var modalImg = document.getElementById("img014");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close4s the modal
+                            var span = document.getElementsByClassName("close4")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Dasar Pemrograman JavaScript</h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg5" src="/assets/img/sertifikat SOLID-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal5" class="modal">
+                            <span class="close5">&times;</span>
+                            <img class="modal-content" id="img015">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal5");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg5");
+                            var modalImg = document.getElementById("img015");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close5s the modal
+                            var span = document.getElementsByClassName("close5")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Prinsip Pemrograman SOLID</h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg6" src="/assets/img/sertifikat c-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal6" class="modal">
+                            <span class="close6">&times;</span>
+                            <img class="modal-content" id="img016">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal6");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg6");
+                            var modalImg = document.getElementById("img016");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close6s the modal
+                            var span = document.getElementsByClassName("close6")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Memulai Pemrograman Dengan C</h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg7" src="/assets/img/sertifikat java-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal7" class="modal">
+                            <span class="close7">&times;</span>
+                            <img class="modal-content" id="img017">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal7");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg7");
+                            var modalImg = document.getElementById("img017");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close7s the modal
+                            var span = document.getElementsByClassName("close7")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Memulai Pemrograman Dengan Java </h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg8" src="/assets/img/sertifikat developer-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal8" class="modal">
+                            <span class="close8">&times;</span>
+                            <img class="modal-content" id="img018">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal8");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg8");
+                            var modalImg = document.getElementById("img018");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close8s the modal
+                            var span = document.getElementsByClassName("close8")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Meniti Karier sebagai Software Developer</h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg9" src="/assets/img/sertifikat data-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal9" class="modal">
+                            <span class="close9">&times;</span>
+                            <img class="modal-content" id="img019">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal9");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg9");
+                            var modalImg = document.getElementById("img019");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close9s the modal
+                            var span = document.getElementsByClassName("close9")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Pengenalan Data pada Pemrograman (Data 101)</h3>
+
+                    </div>
+
+                </div>
+                <div class="collection-sertifikat-card">
+                    <div class="image-box-sertifikat">
+                        <img id="myImg10" src="/assets/img/sertifikat logic-1.png" alt="network.jpg" srcset="">
+                        <div id="myModal10" class="modal">
+                            <span class="close10">&times;</span>
+                            <img class="modal-content" id="img0110">
+                            <div id="caption"></div>    
+                          </div>
+                          
+                          <script>
+                            // Get the modal
+                            var modal = document.getElementById("myModal10");
+                            
+                            // Get the image and insert it inside the modal - use its "alt" text as a caption
+                            var img = document.getElementById("myImg10");
+                            var modalImg = document.getElementById("img0110");
+                            var captionText = document.getElementById("caption");
+                            img.onclick = function(){
+                              modal.style.display = "block";
+                              modalImg.src = this.src;
+                              captionText.innerHTML = this.alt;
+                            }
+                            
+                            // Get the <span> element that close10s the modal
+                            var span = document.getElementsByClassName("close10")[0];
+                            
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() { 
+                              modal.style.display = "none";
+                            }
+                            </script>
+                    </div>
+                    <div class="tulisan-sertifikat">
+                        <h3>Pengenalan ke Logika Pemrograman (Programming Logic 101)</h3>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+       
+            
+    </article>
+
+
+    <!-- ======================== End Sertifikat ======================== -->
+    <script src="/main.js"></script>
+</body>
+
+</html>
